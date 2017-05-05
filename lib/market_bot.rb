@@ -1,6 +1,6 @@
 require 'uri'
 
-require 'typhoeus'
+require 'typhoeus/adapters/faraday'
 require 'nokogiri'
 
 require 'market_bot/version'
